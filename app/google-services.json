@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "57542612624",
+    "firebase_url": "https://cryptoapp-ca-default-rtdb.firebaseio.com",
+    "project_id": "cryptoapp-ca",
+    "storage_bucket": "cryptoapp-ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57542612624:android:74028c10193fc5bfe52a15",
+        "android_client_info": {
+          "package_name": "com.example.cryptoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57542612624-32vglgag0u1te5ap8jarpq7rfns4ff17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnXbsihci8Ua8dP6BDA3hh2YwvbscFav0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57542612624-32vglgag0u1te5ap8jarpq7rfns4ff17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

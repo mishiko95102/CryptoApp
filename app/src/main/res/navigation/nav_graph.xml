@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homFragment">
+
+    <fragment
+        android:id="@+id/homFragment"
+        tools:layout="@layout/fragment_hom"
+        android:name="com.example.cryptoapp.view.fragment.HomFragment"
+        android:label="HomFragment" />
+    <fragment
+        tools:layout="@layout/fragment_chat"
+        android:id="@+id/chatFragment"
+        android:name="com.example.cryptoapp.view.fragment.ChatFragment"
+        android:label="ChatFragment" />
+    <fragment
+        android:id="@+id/cryptoApiFragment"
+        tools:layout="@layout/fragment_crypto_api"
+        android:name="com.example.cryptoapp.view.fragment.CryptoApiFragment"
+        android:label="CryptoApiFragment" >
+        <action
+            android:id="@+id/action_cryptoApiFragment_to_cryptoDetailsFragment"
+            app:destination="@id/cryptoDetailsFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_crypto_details"
+        android:id="@+id/cryptoDetailsFragment"
+        android:name="com.example.cryptoapp.view.fragment.CryptoDetailsFragment"
+        android:label="CryptoDetailsFragment" >
+        <argument
+            android:name="description"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="started_at"
+            app:argType="string" />
+        <argument
+            android:name="symbol"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_cryptoDetailsFragment_to_cryptoApiFragment"
+            app:destination="@id/cryptoApiFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="logo"
+            app:argType="string" />
+        <argument
+            android:name="website"
+            app:argType="string" />
+        <argument
+            android:name="development_status"
+            app:argType="string" />
+        <argument
+            android:name="youtube"
+            app:argType="string" />
+    </fragment>
+</navigation>

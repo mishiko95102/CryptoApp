@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="What Is Cryptocurrency?"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="20dp">
+
+         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             app:videoId="1YyAzVmP9xQ"
+             app:autoPlay="false" />
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#BECDC6C6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Cryptocurrency, sometimes called crypto-currency or crypto, is any form of currency that exists digitally or virtually and uses cryptography to secure transactions. Cryptocurrencies don't have a central issuing or regulating authority, instead using a decentralized system to record transactions and issue new units."
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#535353"/>
+    <TextView
+        android:id="@+id/tvWhatIsCryptoCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6078FF"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Click for more info"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="What Is Bitcoin?"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="0QrAdF0eE_0"
+                app:autoPlay="false" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#D5D6D6D6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:text="Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as money and a form of payment outside the control of any one person, group, or entity, thus removing the need for third-party involvement in financial transactions."
+                android:textStyle="bold"
+                android:textColor="#535353"/>
+            <TextView
+                android:id="@+id/tvWhatIsBitcoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#6078FF"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Click for more info"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="What Is Ethereum?"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="jYLXorNpLlE"
+                app:autoPlay="false" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#D5D6D6D6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:text="Ethereum is an open source, distributed software platform based on blockchain technology. It has its own native cryptocurrency called Ether and a programming language called Solidity. Blockchain is a distributed ledger technology that keeps a permanent, tamper-proof list of records. Ethereum is Bitcoin's main competitor."
+                    android:textStyle="bold"
+                    android:textColor="#535353"/>
+                <TextView
+                    android:id="@+id/tvWhatIsEthereum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6078FF"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:text="Click for more info"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="What Is Tether?"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="1XQBanDxmfY"
+                app:autoPlay="false" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            app:cardBackgroundColor="#D5D6D6D6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:text="Getty. Tether (USDT) is the largest stablecoin by market capitalization. Crypto traders use stablecoins like Tether to make transfers between different cryptocurrencies or to move their investments into or out of fiat currencies. The value of USDT is pegged to the U.S. dollar."
+                    android:textStyle="bold"
+                    android:textColor="#535353"/>
+                <TextView
+                    android:id="@+id/tvWhatIsTether"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6078FF"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:text="Click for more info"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        tools:layout="@layout/fragment_start"
+        android:name="com.example.cryptoapp.view.fragment.StartFragment"
+        android:label="StartFragment" >
+        <action
+            android:id="@+id/action_startFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        tools:layout="@layout/fragment_signin"
+        android:name="com.example.cryptoapp.view.fragment.SignInFragment"
+        android:label="SignInFragment" >
+        <action
+            android:id="@+id/action_signInFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_recoveryFragment"
+            app:destination="@id/recoveryFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_home"
+        android:id="@+id/homeFragment"
+        android:name="com.example.cryptoapp.view.fragment.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        tools:layout="@layout/fragment_recovery"
+        android:id="@+id/recoveryFragment"
+        android:name="com.example.cryptoapp.view.fragment.RecoveryFragment"
+        android:label="RecoveryFragment" />
+    <fragment
+        tools:layout="@layout/fragment_signup"
+        android:id="@+id/signUpFragment"
+        android:name="com.example.cryptoapp.view.fragment.SignUpFragment"
+        android:label="SignUpFragment" />
+</navigation>

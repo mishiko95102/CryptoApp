@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/template"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:hint="Start"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#D5A516"
+        android:layout_marginBottom="25dp"/>
+</LinearLayout>
