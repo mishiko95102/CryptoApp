@@ -39,6 +39,7 @@ public class CryptoApiFragment extends Fragment {
         setListeners();
     }
 
+    // წამოღებულ კრიპტოებზე დაწოლით ინფორმაციის გამოტანა
     private void setListeners(){
         cryptoAdapter.setOnItemClickListener(new CryptoAdapter.OnItemClickListener() {
 
@@ -55,6 +56,8 @@ public class CryptoApiFragment extends Fragment {
         binding.rvCryptos.setAdapter(cryptoAdapter);
         viewModel.getCrypto();
     }
+
+    // კრიპტო  ინფორმაციის სტრუქტურა
     private void setObservers(){
         viewModel.cryptoLiveData.observe(getViewLifecycleOwner(), cryptos -> {
             cryptoAdapter.updateList(cryptos);
@@ -64,6 +67,7 @@ public class CryptoApiFragment extends Fragment {
 
             String youtube = crypto1.links.youtube != null && !crypto1.links.youtube.isEmpty() ? crypto1.links.youtube.get(0) : "";
 
+            // ინფორმაციის გამოტანა კრიპტოზე დაწოლის შემდეგ
             Navigation.findNavController(binding.getRoot()).navigate(CryptoApiFragmentDirections.actionCryptoApiFragmentToCryptoDetailsFragment(
                     crypto1.description,
                     crypto1.name,

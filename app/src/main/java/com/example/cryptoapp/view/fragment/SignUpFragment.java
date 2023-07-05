@@ -14,6 +14,7 @@ import com.example.cryptoapp.databinding.FragmentSignupBinding;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 
+// ახალი აქაუნთის რეგისტრაცია
 public class SignUpFragment extends Fragment {
 
     private FragmentSignupBinding binding;

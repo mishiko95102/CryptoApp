@@ -13,6 +13,7 @@ import com.example.cryptoapp.model.remote.crypto.Crypto;
 import java.util.ArrayList;
 import java.util.List;
 
+// ადაპტერი recyclerview - ში ინფორმაციის შესატანად
 public class CryptoAdapter extends RecyclerView.Adapter<CryptoAdapter.CryptoViewHolder> {
 
     List<Crypto> cryptoList = new ArrayList<>();
@@ -70,6 +71,7 @@ public class CryptoAdapter extends RecyclerView.Adapter<CryptoAdapter.CryptoView
         }
     }
 
+// ახალი ინფორმაცისს შეტანა recyclerview - ში
     public class CryptoDiffCallback extends DiffUtil.Callback{
 
 

@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.cryptoapp.databinding.FragmentHomBinding;
 
+// შემეცნებითი გვერდი კრიპტოზე
 public class HomFragment extends Fragment {
     private FragmentHomBinding binding;
     @Nullable

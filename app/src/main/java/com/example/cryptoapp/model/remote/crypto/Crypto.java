@@ -3,7 +3,7 @@ package com.example.cryptoapp.model.remote.crypto;
 import com.google.gson.annotations.SerializedName;
 
 
-
+// კრიპტო  კლასსი
 public class Crypto {
 
     public int rank;

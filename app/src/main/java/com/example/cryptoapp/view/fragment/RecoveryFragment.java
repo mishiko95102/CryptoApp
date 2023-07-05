@@ -14,6 +14,7 @@ import com.example.cryptoapp.databinding.FragmentRecoveryBinding;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 
+// recovery  პაროლის გაგზავნა მაილზე
 public class RecoveryFragment extends Fragment {
 
     private FragmentRecoveryBinding binding;

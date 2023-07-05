@@ -7,6 +7,8 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 
+
+// API - ის andpoint - ი .
 public interface CryptoService {
     @GET("coins")
     Single<List<Crypto>> getAllCrypto();

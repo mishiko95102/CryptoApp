@@ -14,6 +14,7 @@ import androidx.navigation.ui.NavigationUI;
 import com.example.cryptoapp.R;
 import com.example.cryptoapp.databinding.FragmentHomeBinding;
 
+// navigation
 public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;

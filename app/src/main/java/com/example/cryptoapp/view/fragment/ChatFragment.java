@@ -14,6 +14,7 @@ import com.example.cryptoapp.databinding.FragmentChatBinding;
 import com.example.cryptoapp.view.adapter.MessageAdapter;
 import com.example.cryptoapp.viewmodel.ChatViewModel;
 
+
 public class ChatFragment extends Fragment {
 
     private FragmentChatBinding binding;
@@ -43,6 +44,7 @@ public class ChatFragment extends Fragment {
         chatViewModel = new ViewModelProvider(this).get(ChatViewModel.class);
 
     }
+    // მესიჯის გაგზავნა DATABASE - ში
     private void setListeners(){
         binding.btnSendMessage.setOnClickListener(view -> {
             String messagee = binding.etMessageBox.getEditText().getText().toString();
@@ -51,7 +53,7 @@ public class ChatFragment extends Fragment {
 
         });
     }
-
+    // მესიჯის წამოღება DATABASE -დან
     private void receiveMessages(){
         chatViewModel.receiveMessages();
         setObservers();

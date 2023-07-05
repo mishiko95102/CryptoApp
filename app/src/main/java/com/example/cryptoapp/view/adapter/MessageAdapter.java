@@ -14,6 +14,7 @@ import com.example.cryptoapp.model.remote.chat.Message;
 import java.util.ArrayList;
 import java.util.List;
 
+// ადაპტერი recyclerview - ში მიმოწერის შესატანად
 public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageViewHolder> {
 
 
@@ -65,6 +66,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
         }
     }
 
+    // ახალი მიმოწერის შეტანა recyclerview - ში
     public class MessageDiffCallback extends DiffUtil.Callback{
 
         public List<Message> oldList;

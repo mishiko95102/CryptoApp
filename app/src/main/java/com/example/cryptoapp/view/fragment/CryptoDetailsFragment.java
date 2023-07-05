@@ -20,6 +20,7 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.Abs
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+// API - დან წამოღებული ლინკის განთავსება youtubeplayer -ში
 public class CryptoDetailsFragment extends Fragment {
 
     private FragmentCryptoDetailsBinding binding;

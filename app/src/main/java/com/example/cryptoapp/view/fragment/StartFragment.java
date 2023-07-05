@@ -12,6 +12,7 @@ import androidx.navigation.Navigation;
 
 import com.example.cryptoapp.databinding.FragmentStartBinding;
 
+// საწყისი გვერდი
 public class StartFragment extends Fragment {
 
     private FragmentStartBinding binding;
